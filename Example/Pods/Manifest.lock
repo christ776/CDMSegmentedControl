@@ -1,0 +1,16 @@
+PODS:
+  - CDMSegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - CDMSegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  CDMSegmentedControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CDMSegmentedControl: 59fd06510a3fdb3bd44adb1ac7190a665389d961
+
+PODFILE CHECKSUM: ab925ca6c57ca68f5e645d7b3daa18b8d0872532
+
+COCOAPODS: 1.0.0.beta.6

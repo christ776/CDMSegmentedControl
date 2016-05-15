@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "CDMSegmentedControl"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CDMSegmentedControl."
+  s.summary          = "A very simple attempt at creating a custom UIControl, similar to UISegmentedControl, with thumbnail support and customized background and foreground colors"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A custom UISegmentedControl with thumbnail support and customized background and foreground colors written in Swift.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CDMSegmentedControl"
+  s.homepage         = "https://github.com/christ776/CDMSegmentedControl"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Christian De Martino" => "chrisddm@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CDMSegmentedControl.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/christ776/CDMSegmentedControl.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CDMSegmentedControl/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'CDMSegmentedControl' => ['CDMSegmentedControl/Assets/*.png']
   # }

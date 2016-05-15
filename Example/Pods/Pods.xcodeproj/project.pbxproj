@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083B50EE81046FA7A86E9AC3BA7CEA76 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E626B78C0B0890CB3027DAB65FDE72 /* ReplaceMe.swift */; };
+		09845170D075BC7185F4B67F349FB879 /* Pods-CDMSegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A2EBAA8EFE97137373CC8BB395129C /* Pods-CDMSegmentedControl_Tests-dummy.m */; };
+		31186B64A09A52EECD94A3250243422B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		52958384196BD4CFEADB3199A40144B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		5A694457D49E68B41257340AB0CAA11D /* CDMSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B54A618FD3DD8D30C743832FC6F65B6 /* CDMSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E559350AB0BE3764F4A6E6D439291D9 /* CDMSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3AC3101A4D749D08545C4587181885 /* CDMSegmentedControl-dummy.m */; };
+		A94BB8ACD626297263E62ED15DBB08A2 /* Pods-CDMSegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D24BDDEDBC5224662E74E7100464C4 /* Pods-CDMSegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD56D0BBDEB75B6C862BB7FBAC9DB089 /* Pods-CDMSegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF2D970877761ECC995970B1EAE28C /* Pods-CDMSegmentedControl_Example-dummy.m */; };
+		B90A92E7185F1FC4786C57FA15D26FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		ED05048AFBB3EA23CE248BA46C8F8F7A /* Pods-CDMSegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC6B2CB696861CB09DE416B6C608FE6 /* Pods-CDMSegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432FDB13B80E937C922AD6AB471948E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BECFBD5AAE90F117FB22A48AA5F3C8EA;
+			remoteInfo = CDMSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D48DC1DEA98CED27D17B8D61FDD59D /* CDMSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDMSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		138C65189BB9BFA90DEDE6DB6858929E /* Pods-CDMSegmentedControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDMSegmentedControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DD12740DFE2DE5C67754624714DCF01 /* Pods-CDMSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDMSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		243E180434BF8EE14F0B6DB3C6393DC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3AC3101A4D749D08545C4587181885 /* CDMSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDMSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		30C3E689415C33477A2520032003495B /* Pods-CDMSegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDMSegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		366E64FAA6109E374FF2BE43C35EB951 /* Pods-CDMSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDMSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39AF2D970877761ECC995970B1EAE28C /* Pods-CDMSegmentedControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDMSegmentedControl_Example-dummy.m"; sourceTree = "<group>"; };
+		48E626B78C0B0890CB3027DAB65FDE72 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		50C457AF64B81EBA65AD8714B83E5B0A /* Pods-CDMSegmentedControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDMSegmentedControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		59CD933C00994308ABAD5B41425B98AA /* Pods-CDMSegmentedControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDMSegmentedControl_Tests-resources.sh"; sourceTree = "<group>"; };
+		5B54A618FD3DD8D30C743832FC6F65B6 /* CDMSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDMSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		5B6C9F8AFDA6B82F6783D183C9FE02A7 /* Pods-CDMSegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDMSegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FC6B2CB696861CB09DE416B6C608FE6 /* Pods-CDMSegmentedControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDMSegmentedControl_Example-umbrella.h"; sourceTree = "<group>"; };
+		61A2EBAA8EFE97137373CC8BB395129C /* Pods-CDMSegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDMSegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
+		6E88B1FA4EBF44EF6ED35EE42A1A0DD0 /* CDMSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDMSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		6FC5611D51A69C961E36C55BB9BE5165 /* Pods_CDMSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDMSegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FE7968EFA1DA287567505D003770E7 /* Pods-CDMSegmentedControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDMSegmentedControl_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A9971195937EC2188FB785E9244A17B /* Pods-CDMSegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDMSegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BB05FFD7661060F0149A26E7E79BF3 /* CDMSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CDMSegmentedControl.modulemap; sourceTree = "<group>"; };
+		A750C43FBA398E6AD6B7E7E1F1DE761D /* Pods-CDMSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CDMSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
+		A8DBF49733B5D54E2D2FE39CCF88D159 /* Pods_CDMSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDMSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA71FE12C172E19B5A0350038433F3AC /* Pods-CDMSegmentedControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDMSegmentedControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ABF48453DB2FEB2A2464161E6C81C7D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3DDE7B0DA2334B35D456FA20F7200E /* Pods-CDMSegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDMSegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC334FD9D204B8D406937DD98948374C /* Pods-CDMSegmentedControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDMSegmentedControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CDADB93274DCB156F143A6D36EE043BE /* CDMSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDMSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DF9A4EBF74EBA6AE6FEB0AD756E251 /* Pods-CDMSegmentedControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CDMSegmentedControl_Example.modulemap"; sourceTree = "<group>"; };
+		DEE3D4A764F0FD63716411D6D2C5363A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D24BDDEDBC5224662E74E7100464C4 /* Pods-CDMSegmentedControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDMSegmentedControl_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		295029A3BD480DC3DF0D278768F6611B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52958384196BD4CFEADB3199A40144B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACC90A272F35673E8C884226FF7D7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90A92E7185F1FC4786C57FA15D26FC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A039EC9016BA5C35F9E8A58E280F3CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31186B64A09A52EECD94A3250243422B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB2B4267E5F270A41655AB58582EBEC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD017AA83C469AC5CAD8FA78C70D023 /* Pods-CDMSegmentedControl_Example */,
+				53C241F0B51DE89A76AD44413D2A51D1 /* Pods-CDMSegmentedControl_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		53C241F0B51DE89A76AD44413D2A51D1 /* Pods-CDMSegmentedControl_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE3D4A764F0FD63716411D6D2C5363A /* Info.plist */,
+				A750C43FBA398E6AD6B7E7E1F1DE761D /* Pods-CDMSegmentedControl_Tests.modulemap */,
+				AE3DDE7B0DA2334B35D456FA20F7200E /* Pods-CDMSegmentedControl_Tests-acknowledgements.markdown */,
+				5B6C9F8AFDA6B82F6783D183C9FE02A7 /* Pods-CDMSegmentedControl_Tests-acknowledgements.plist */,
+				61A2EBAA8EFE97137373CC8BB395129C /* Pods-CDMSegmentedControl_Tests-dummy.m */,
+				CC334FD9D204B8D406937DD98948374C /* Pods-CDMSegmentedControl_Tests-frameworks.sh */,
+				59CD933C00994308ABAD5B41425B98AA /* Pods-CDMSegmentedControl_Tests-resources.sh */,
+				E9D24BDDEDBC5224662E74E7100464C4 /* Pods-CDMSegmentedControl_Tests-umbrella.h */,
+				9A9971195937EC2188FB785E9244A17B /* Pods-CDMSegmentedControl_Tests.debug.xcconfig */,
+				1DD12740DFE2DE5C67754624714DCF01 /* Pods-CDMSegmentedControl_Tests.release.xcconfig */,
+			);
+			name = "Pods-CDMSegmentedControl_Tests";
+			path = "Target Support Files/Pods-CDMSegmentedControl_Tests";
+			sourceTree = "<group>";
+		};
+		5FD017AA83C469AC5CAD8FA78C70D023 /* Pods-CDMSegmentedControl_Example */ = {
+			isa = PBXGroup;
+			children = (
+				243E180434BF8EE14F0B6DB3C6393DC4 /* Info.plist */,
+				D5DF9A4EBF74EBA6AE6FEB0AD756E251 /* Pods-CDMSegmentedControl_Example.modulemap */,
+				138C65189BB9BFA90DEDE6DB6858929E /* Pods-CDMSegmentedControl_Example-acknowledgements.markdown */,
+				50C457AF64B81EBA65AD8714B83E5B0A /* Pods-CDMSegmentedControl_Example-acknowledgements.plist */,
+				39AF2D970877761ECC995970B1EAE28C /* Pods-CDMSegmentedControl_Example-dummy.m */,
+				AA71FE12C172E19B5A0350038433F3AC /* Pods-CDMSegmentedControl_Example-frameworks.sh */,
+				87FE7968EFA1DA287567505D003770E7 /* Pods-CDMSegmentedControl_Example-resources.sh */,
+				5FC6B2CB696861CB09DE416B6C608FE6 /* Pods-CDMSegmentedControl_Example-umbrella.h */,
+				366E64FAA6109E374FF2BE43C35EB951 /* Pods-CDMSegmentedControl_Example.debug.xcconfig */,
+				30C3E689415C33477A2520032003495B /* Pods-CDMSegmentedControl_Example.release.xcconfig */,
+			);
+			name = "Pods-CDMSegmentedControl_Example";
+			path = "Target Support Files/Pods-CDMSegmentedControl_Example";
+			sourceTree = "<group>";
+		};
+		71867FC967107264EBE6245C9C244D52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB05FFD7661060F0149A26E7E79BF3 /* CDMSegmentedControl.modulemap */,
+				02D48DC1DEA98CED27D17B8D61FDD59D /* CDMSegmentedControl.xcconfig */,
+				2D3AC3101A4D749D08545C4587181885 /* CDMSegmentedControl-dummy.m */,
+				6E88B1FA4EBF44EF6ED35EE42A1A0DD0 /* CDMSegmentedControl-prefix.pch */,
+				5B54A618FD3DD8D30C743832FC6F65B6 /* CDMSegmentedControl-umbrella.h */,
+				ABF48453DB2FEB2A2464161E6C81C7D6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CDMSegmentedControl";
+			sourceTree = "<group>";
+		};
+		74062E165CE5D9D517DDFF02C9F96467 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA751CE729702D05D0C16CEEA2B136E1 /* CDMSegmentedControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				74062E165CE5D9D517DDFF02C9F96467 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8CE1AC2E17492B015FC2C5881B2F7917 /* Products */,
+				0AB2B4267E5F270A41655AB58582EBEC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE1AC2E17492B015FC2C5881B2F7917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDADB93274DCB156F143A6D36EE043BE /* CDMSegmentedControl.framework */,
+				6FC5611D51A69C961E36C55BB9BE5165 /* Pods_CDMSegmentedControl_Example.framework */,
+				A8DBF49733B5D54E2D2FE39CCF88D159 /* Pods_CDMSegmentedControl_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93CA04637B6431962A6BBAC7D2C01824 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48E626B78C0B0890CB3027DAB65FDE72 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BA751CE729702D05D0C16CEEA2B136E1 /* CDMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				E870D1A8CF2F6E5354ED19C9DD16FDD5 /* CDMSegmentedControl */,
+				71867FC967107264EBE6245C9C244D52 /* Support Files */,
+			);
+			name = CDMSegmentedControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E870D1A8CF2F6E5354ED19C9DD16FDD5 /* CDMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				93CA04637B6431962A6BBAC7D2C01824 /* Classes */,
+			);
+			path = CDMSegmentedControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A816E8DE7F3FDA40300EEBCC99EFDE7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A694457D49E68B41257340AB0CAA11D /* CDMSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2808846142B78D460E7A58F20165D75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94BB8ACD626297263E62ED15DBB08A2 /* Pods-CDMSegmentedControl_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52E021073339091C10049CAFA7DF37A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED05048AFBB3EA23CE248BA46C8F8F7A /* Pods-CDMSegmentedControl_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		554C35CBD12EF73F7500505AB7DA81EC /* Pods-CDMSegmentedControl_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3BF0DF6755117F7612735EA9F59059 /* Build configuration list for PBXNativeTarget "Pods-CDMSegmentedControl_Example" */;
+			buildPhases = (
+				6A88387965B57993851D0B73E2E581E0 /* Sources */,
+				295029A3BD480DC3DF0D278768F6611B /* Frameworks */,
+				E52E021073339091C10049CAFA7DF37A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3E228F065A84FC5D34AD1E8C9DC737 /* PBXTargetDependency */,
+			);
+			name = "Pods-CDMSegmentedControl_Example";
+			productName = "Pods-CDMSegmentedControl_Example";
+			productReference = 6FC5611D51A69C961E36C55BB9BE5165 /* Pods_CDMSegmentedControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		615761C0D35D98E1058952FB32B59C64 /* Pods-CDMSegmentedControl_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FD95BA2B0ED17C21A9A6D0EDEE9D15 /* Build configuration list for PBXNativeTarget "Pods-CDMSegmentedControl_Tests" */;
+			buildPhases = (
+				26B97D0747F5CCD78AEA8FA10383512F /* Sources */,
+				8ACC90A272F35673E8C884226FF7D7A2 /* Frameworks */,
+				E2808846142B78D460E7A58F20165D75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CDMSegmentedControl_Tests";
+			productName = "Pods-CDMSegmentedControl_Tests";
+			productReference = A8DBF49733B5D54E2D2FE39CCF88D159 /* Pods_CDMSegmentedControl_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BECFBD5AAE90F117FB22A48AA5F3C8EA /* CDMSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC802932E3F46F2888499045FD751C95 /* Build configuration list for PBXNativeTarget "CDMSegmentedControl" */;
+			buildPhases = (
+				F647CFC8B1A66BEA2C1765981EB4AFF1 /* Sources */,
+				A039EC9016BA5C35F9E8A58E280F3CDC /* Frameworks */,
+				A816E8DE7F3FDA40300EEBCC99EFDE7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDMSegmentedControl;
+			productName = CDMSegmentedControl;
+			productReference = CDADB93274DCB156F143A6D36EE043BE /* CDMSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8CE1AC2E17492B015FC2C5881B2F7917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BECFBD5AAE90F117FB22A48AA5F3C8EA /* CDMSegmentedControl */,
+				554C35CBD12EF73F7500505AB7DA81EC /* Pods-CDMSegmentedControl_Example */,
+				615761C0D35D98E1058952FB32B59C64 /* Pods-CDMSegmentedControl_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B97D0747F5CCD78AEA8FA10383512F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09845170D075BC7185F4B67F349FB879 /* Pods-CDMSegmentedControl_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A88387965B57993851D0B73E2E581E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD56D0BBDEB75B6C862BB7FBAC9DB089 /* Pods-CDMSegmentedControl_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F647CFC8B1A66BEA2C1765981EB4AFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E559350AB0BE3764F4A6E6D439291D9 /* CDMSegmentedControl-dummy.m in Sources */,
+				083B50EE81046FA7A86E9AC3BA7CEA76 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D3E228F065A84FC5D34AD1E8C9DC737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDMSegmentedControl;
+			target = BECFBD5AAE90F117FB22A48AA5F3C8EA /* CDMSegmentedControl */;
+			targetProxy = 432FDB13B80E937C922AD6AB471948E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E2B7CFE19FA74490420BA6ECDC163DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9971195937EC2188FB785E9244A17B /* Pods-CDMSegmentedControl_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CDMSegmentedControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDMSegmentedControl_Tests/Pods-CDMSegmentedControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CDMSegmentedControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A939391E8FB44764E28DD00C35CE014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD12740DFE2DE5C67754624714DCF01 /* Pods-CDMSegmentedControl_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CDMSegmentedControl_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDMSegmentedControl_Tests/Pods-CDMSegmentedControl_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CDMSegmentedControl_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A1D9A6A9C6C3F0D1025173225A190D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366E64FAA6109E374FF2BE43C35EB951 /* Pods-CDMSegmentedControl_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CDMSegmentedControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDMSegmentedControl_Example/Pods-CDMSegmentedControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CDMSegmentedControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		372FF5048FF42C3A7A18B70A30D785C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4197012F3D56E1B12C9D3C21A0549993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C3E689415C33477A2520032003495B /* Pods-CDMSegmentedControl_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CDMSegmentedControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDMSegmentedControl_Example/Pods-CDMSegmentedControl_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CDMSegmentedControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54030F25D2F861316AE66EA99D2C4BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D48DC1DEA98CED27D17B8D61FDD59D /* CDMSegmentedControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CDMSegmentedControl/CDMSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDMSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDMSegmentedControl/CDMSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CDMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70F0378D63DE3D2DCC739550669BD46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D303BECDF0A6ABD5CDBA33182DB2AFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D48DC1DEA98CED27D17B8D61FDD59D /* CDMSegmentedControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CDMSegmentedControl/CDMSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDMSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDMSegmentedControl/CDMSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CDMSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F0378D63DE3D2DCC739550669BD46A /* Debug */,
+				372FF5048FF42C3A7A18B70A30D785C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D3BF0DF6755117F7612735EA9F59059 /* Build configuration list for PBXNativeTarget "Pods-CDMSegmentedControl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1D9A6A9C6C3F0D1025173225A190D2 /* Debug */,
+				4197012F3D56E1B12C9D3C21A0549993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC802932E3F46F2888499045FD751C95 /* Build configuration list for PBXNativeTarget "CDMSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54030F25D2F861316AE66EA99D2C4BA0 /* Debug */,
+				D303BECDF0A6ABD5CDBA33182DB2AFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8FD95BA2B0ED17C21A9A6D0EDEE9D15 /* Build configuration list for PBXNativeTarget "Pods-CDMSegmentedControl_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2B7CFE19FA74490420BA6ECDC163DE /* Debug */,
+				1A939391E8FB44764E28DD00C35CE014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
