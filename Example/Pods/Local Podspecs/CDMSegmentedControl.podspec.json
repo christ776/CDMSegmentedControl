@@ -1,15 +1,15 @@
 {
   "name": "CDMSegmentedControl",
   "version": "0.1.0",
-  "summary": "A short description of CDMSegmentedControl.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/CDMSegmentedControl",
+  "summary": "A custom UIControl, similar to UISegmentedControl, with thumbnail support and customized background and foreground colors",
+  "description": "A custom UISegmentedControl with thumbnail support and customized background and foreground colors written in Swift.",
+  "homepage": "https://github.com/christ776/CDMSegmentedControl",
   "license": "MIT",
   "authors": {
     "Christian De Martino": "chrisddm@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/CDMSegmentedControl.git",
+    "git": "https://github.com/christ776/CDMSegmentedControl.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "CDMSegmentedControl"
   s.version          = "0.1.0"
-  s.summary          = "A very simple attempt at creating a custom UIControl, similar to UISegmentedControl, with thumbnail support and customized background and foreground colors"
+  s.summary          = "A custom UIControl, similar to UISegmentedControl, with thumbnail support and customized background and foreground colors"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

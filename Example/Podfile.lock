@@ -2,15 +2,15 @@ PODS:
   - CDMSegmentedControl (0.1.0)
 
 DEPENDENCIES:
-  - CDMSegmentedControl (from `../`)
+  - CDMSegmentedControl (from `~/Documents/MyFirstCocoaPod/CDMSegmentedControl`)
 
 EXTERNAL SOURCES:
   CDMSegmentedControl:
-    :path: ../
+    :path: ~/Documents/MyFirstCocoaPod/CDMSegmentedControl
 
 SPEC CHECKSUMS:
-  CDMSegmentedControl: 59fd06510a3fdb3bd44adb1ac7190a665389d961
+  CDMSegmentedControl: d9ada65debf1a99eb63eb197a2e237d3e6e8b7fd
 
-PODFILE CHECKSUM: ab925ca6c57ca68f5e645d7b3daa18b8d0872532
+PODFILE CHECKSUM: 4efb98ca0de41d967c46171f76479610bf0a9402
 
 COCOAPODS: 1.0.0.beta.6

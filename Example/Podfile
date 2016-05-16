@@ -1,7 +1,8 @@
+platform :ios, '8.0'
 use_frameworks!
 
 target 'CDMSegmentedControl_Example' do
-  pod 'CDMSegmentedControl', :path => '../'
+  pod 'CDMSegmentedControl', :path => '~/Documents/MyFirstCocoaPod/CDMSegmentedControl'
 
   target 'CDMSegmentedControl_Tests' do
     inherit! :search_paths
