@@ -17,15 +17,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PpS-sV-yh5" customClass="CustomSegmentedControl" customModule="CDMSegmentedControl">
-                                <rect key="frame" x="102" y="141" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PpS-sV-yh5" customClass="CustomSegmentedControl" customModule="CDMSegmentedControl">
+                                <rect key="frame" x="0.0" y="141" width="600" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="6dm-I1-tdy"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PpS-sV-yh5" secondAttribute="trailing" id="Bh2-37-5et"/>
+                            <constraint firstItem="PpS-sV-yh5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="JVL-uZ-dS9"/>
+                            <constraint firstItem="PpS-sV-yh5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="121" id="Ne4-bI-W12"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="contactsSegment" destination="PpS-sV-yh5" id="FzT-Ea-KHf"/>
+                        <outlet property="segmentedControl" destination="PpS-sV-yh5" id="Jgw-sY-yDN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

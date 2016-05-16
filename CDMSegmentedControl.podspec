@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "CDMSegmentedControl"
   s.version          = "0.1.0"
-  s.summary          = "A custom UIControl, similar to UISegmentedControl, with thumbnail support and customized background and foreground colors"
+  s.summary          = "A custom UIControl, with thumbnail support and customized background and foreground colors"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A custom UISegmentedControl with thumbnail support and customized background and foreground colors written in Swift.
+A custom UISegmentedControl , inspired from UISegmentedControl with thumbnail support for individual background and foreground colors written in Swift.
                        DESC
 
   s.homepage         = "https://github.com/christ776/CDMSegmentedControl"
