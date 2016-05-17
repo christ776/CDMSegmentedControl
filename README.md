@@ -11,6 +11,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Screenshots
+
+![ScreenShot 1](https://raw.github.com/christ776/CDMSegmentedControl/images/screenshots/1.png)
+![ScreenShot 2](https://raw.github.com/christ776/CDMSegmentedControl/images/screenshots/2.png)
+
+- Swift 2.x
+
 ## Installation
 
 CDMSegmentedControl is available through [CocoaPods](http://cocoapods.org). To install
