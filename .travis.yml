@@ -24,4 +24,4 @@ script:
 #- set -o pipefail && xcodebuild test -workspace Example/CDMSegmentedControl.xcworkspace -scheme CDMSegmentedControl-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 #- pod lib lint
 
-script: xcodebuild -workspace "Example/CDMSegmentedControl.xcworkspace" -scheme "CDMSegmentedControl-Example" test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
+script: xcodebuild -workspace "Example/CDMSegmentedControl.xcworkspace" -scheme "CDMSegmentedControl-Example" -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
