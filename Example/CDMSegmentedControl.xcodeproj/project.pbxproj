@@ -16,6 +16,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AAD09CE91CE9679600C5BB27 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD09CE81CE9679600C5BB27 /* UIColorExtension.swift */; };
+		AAD09CED1CEAC0F500C5BB27 /* ContactViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD09CEB1CEAB91100C5BB27 /* ContactViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6708D6A4FC61AA8E05FEC5CB /* Pods-CDMSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDMSegmentedControl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDMSegmentedControl_Example/Pods-CDMSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AAD09CE81CE9679600C5BB27 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		AAD09CEB1CEAB91100C5BB27 /* ContactViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewCell.swift; sourceTree = "<group>"; };
 		C7114FE7A5E02A5C8C40C171 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D5FB281EC4E57B6AF0C3F3EC /* Pods-CDMSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDMSegmentedControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDMSegmentedControl_Tests/Pods-CDMSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DAD3BAF0663368BDA1C8DA27 /* Pods_CDMSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDMSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +97,7 @@
 		607FACD21AFB9204008FA782 /* Example for CDMSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				AAD09CE81CE9679600C5BB27 /* UIColorExtension.swift */,
+				AAD09CEA1CEAB8CE00C5BB27 /* helper */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -160,6 +162,15 @@
 				D5FB281EC4E57B6AF0C3F3EC /* Pods-CDMSegmentedControl_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAD09CEA1CEAB8CE00C5BB27 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				AAD09CEB1CEAB91100C5BB27 /* ContactViewCell.swift */,
+				AAD09CE81CE9679600C5BB27 /* UIColorExtension.swift */,
+			);
+			name = helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD09CED1CEAC0F500C5BB27 /* ContactViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				AAD09CE91CE9679600C5BB27 /* UIColorExtension.swift in Sources */,
